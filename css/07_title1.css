@@ -2,11 +2,14 @@
 @font-face {
 	font-family: DIN2014;
 	src: url(../font/En_Body_Din2014/DIN2014-Bold.ttf) format("truetype");
-	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
 }
 @font-face {
 	font-family: Pretendard;
 	src: url(../font/Kr_Pretendard/Pretendard-SemiBold.ttf) format("truetype");
+}
+@font-face {
+	font-family: demibold;
+	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
 }
 .section-style {
 	height:   100%;
@@ -103,7 +106,7 @@ margin-bottom: 30px;
 	width: 712px;
 	height: 180px;
 	color: #FFF;
-font-family: DIN2014;
+font-family: demibold;
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
