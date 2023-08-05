@@ -1,9 +1,12 @@
 @font-face {
-	font-family: DIN 2014;
+	font-family: DIN2014;
 	src: url(../font/En_Body_Din2014/DIN2014-Bold.ttf) format("truetype");
-	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: demibold;
+	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
+}
 .portfolio {
 	background: #202020;
 }
@@ -67,7 +70,7 @@ line-height: 30px; /* 100% */
 	word-break: break-all;
 	opacity: 0.4;
 	color: #FFF;
-font-family: DIN2014;
+font-family: demibold;
 font-size: 22px;
 font-style: normal;
 font-weight: 600;
