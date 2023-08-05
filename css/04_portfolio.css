@@ -5,6 +5,10 @@
 
 @font-face {
 	font-family: demibold;
+	font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 100% */
 	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
 }
 .portfolio {
@@ -70,11 +74,7 @@ line-height: 30px; /* 100% */
 	word-break: break-all;
 	opacity: 0.4;
 	color: #FFF;
-font-family: demibold;
-font-size: 22px;
-font-style: normal;
-font-weight: 600;
-line-height: 22px; /* 100% */
+	font-family: demibold;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
